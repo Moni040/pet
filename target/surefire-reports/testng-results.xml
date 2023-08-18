@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-18T14:51:16 IST" name="Surefire suite" finished-at="2023-08-18T14:51:24 IST" duration-ms="8208">
+    <groups>
+    </groups>
+    <test started-at="2023-08-18T14:51:16 IST" name="Surefire test" finished-at="2023-08-18T14:51:24 IST" duration-ms="8208">
+      <class name="api.test.TestUser">
+        <test-method is-config="true" signature="setData()[pri:0, instance:api.test.TestUser@1f0f1111]" started-at="2023-08-18T14:51:16 IST" name="setData" finished-at="2023-08-18T14:51:16 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method signature="updateUser()[pri:0, instance:api.test.TestUser@1f0f1111]" started-at="2023-08-18T14:51:16 IST" name="updateUser" finished-at="2023-08-18T14:51:21 IST" duration-ms="4877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="postUser()[pri:1, instance:api.test.TestUser@1f0f1111]" started-at="2023-08-18T14:51:21 IST" name="postUser" finished-at="2023-08-18T14:51:23 IST" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser -->
+        <test-method signature="testReadUser()[pri:2, instance:api.test.TestUser@1f0f1111]" started-at="2023-08-18T14:51:23 IST" name="testReadUser" finished-at="2023-08-18T14:51:24 IST" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadUser -->
+      </class> <!-- api.test.TestUser -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
